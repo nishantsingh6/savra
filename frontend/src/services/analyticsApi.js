@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:3000/api/analytics"
+  baseURL: "https://savra.onrender.com/api/analytics"
 });
 
 export const getSummary = () => API.get("/summary");
